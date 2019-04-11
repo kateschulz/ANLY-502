@@ -113,7 +113,7 @@ The goal of this project is to identify one or more question of interest based o
 While the project is open ended, there are some parameters and guidelines to help plan and organize your approach. The project needs to have, at a minimum, the following:
 
 * **Exploratory Analysis (8 points):** Explore, assess and visualiza the data. Aggregate, count, and summarize. Create graphs, tables, etc and explain your findings in writing. Clean data if necessary. 
-* **Model (8 points):** Build any type of model you feel is appropriate and meaningful. You can perform any type of supervised or unsupervised. You should have evaluation metrics for supervised approaches and/or visualizations for unsupervised learning approaches. You are welcome to try
+* **Model (8 points):** Build any type of model you feel is appropriate and meaningful. You can perform any type of supervised or unsupervised approach. You must have evaluation metrics for supervised approaches and/or visualizations for unsupervised learning approaches. You are welcome to try different modeling techniques that you are comfortable with. 
 * **Writeup (4 points):** Create a short writeup of your analysis with the following elements:
 	- Name
 	- Introduction
@@ -156,21 +156,21 @@ The project will be graded holistically with the following rubric:
 
 Grade of A:
 
-* Paper covers all areas above
+* Writeup covers all areas above
 * Language is clear, figures support research/investigation
-* There is discussion on specifics of the analysis
+* There is discussion on specifics of the analysis, and analysis decisions are justified
 * Properly formatted
 
 Grade of B:
 
 * One major deficiency and/or
-* Paper is missing significant discussion around analysis performed and/or
-* Minor flaws in layout/presentation of paper
+* Writeup and/or analysis is missing significant discussion/justification around analysis performed and/or
+* Minor flaws in layout/presentation of analysis
 
 Grade of C:
 
 * Two deficient areas and/or
-* Major flaws in layout/presentation of paper
+* Major flaws in layout/presentation of analysis
 
 Grade of D:
 
@@ -182,6 +182,7 @@ For the purposes of grading, a **deficiency** can mean any of the following:
 - There are more files in your repository than need to be
 - Missing sections of the writeup
 - Poor and sloppy writing and/or presentation
+- Many spelling and grammatical errors
 - Code is not documented with comments
 - Missing model performance metrics
-- Doing an analysis and/or model just for the sake of doing it, without thinking through
+- Doing an analysis and/or model just for the sake of doing it, without thinking through and providing justification
