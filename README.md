@@ -42,8 +42,13 @@ After query the data in the *qry_scores.ipynb* and *qry_body.ipynb* notebooks, I
 I performed the k-means clustering in the *K-means.ipynb* notebook. I chose k = 10 arbitrarily, as I could not figure out how to do arithmetic with the sparse vector representations of the comments. In addition, I limited the number of features in the text hashing to three, so I could visualize the results with a 3D plot. 
 
 # Results
-On 10 groups, the k-means clusters classified most of the subreddits into two groups. 
+On 10 groups, the k-means clusters classified most of the subreddits into two groups. The number of subreddits in each cluster are shown in the table below:
+
+ ![Image of Yaktocat](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/results.png)
  
+ The 3D plot of the centers of the clusters shows that all but two of the groups, 2 and 5, are fairly close together:
+ 
+  ![Image of Yaktocat](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/3D%20plot.png)
 
 
 # Future Work
