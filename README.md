@@ -25,7 +25,7 @@ First two notebooks
 ## Data Analysis
 
 ### Summary Statistics
-The first notebook, *qry_scores.ipynb*, is where I computed some summary statistics on the dataset, in addition to performing the average scoring query. The full dataset had 476,259,744 rows. After querying, I found that the:
+I computed some summary statistic on the dataset in the *qry_scores.ipynb* notebook, in addition to performing the average scoring query. The full dataset had 476,259,744 rows. After querying, I found that the:
 
 * Number of Distinct Subreddits = 233,505
 * Highest Average Score = 103.3
@@ -34,7 +34,13 @@ The first notebook, *qry_scores.ipynb*, is where I computed some summary statist
 The chart below shows the average scores of the 10 highest subreddits:
 ![Image of Yaktocat](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/Top%2010%20Scores.png)
 
+
+### Data Manipulation
+After query the data in the *qry_scores.ipynb* and *qry_body.ipynb* notebooks, I joined the datasets in the *K-means.ipynb* notebook and removed any rows where the comment was "[removed]" or "[deleted]". 
+
 ### K-means Clustering
+I performed the k-means clustering in the *K-means.ipynb* notebook, in addition to the 
+
 K-means clustering, final notebook
 
 
