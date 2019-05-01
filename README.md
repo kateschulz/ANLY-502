@@ -25,7 +25,7 @@ First two notebooks
 ## Data Analysis
 
 ### Summary Statistics
-The first notebook, *qry_scores.ipynb*, is where I computed some summary statistics on the dataset, in addition to performing the average scoring query. The full dataset had 476,259,744 rows. After querying, I found that:
+The first notebook, *qry_scores.ipynb*, is where I computed some summary statistics on the dataset, in addition to performing the average scoring query. The full dataset had 476,259,744 rows. After querying, I found that the:
 
 * Number of Distinct Subreddits = 233,505
 * Highest Average Score = 103.33333333333333
