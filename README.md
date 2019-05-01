@@ -6,12 +6,18 @@ In this project, I focused on the subreddits, scores, and bodies (comments). I f
 
 # Code
 The code for this project is contained in three .ipynb notebooks:
-* qry_score.ipynb
-* qry_body.ipynb
-* K-means.ipynb
+* *qry_scores.ipynb*
+* *qry_body.ipynb*
+* *K-means.ipynb*
+
+*qry_scores.ipynb* queried the full dataset and computed the average score for each subreddit. The results of this query are in *subreddit_score.csv*.
+
+*qry_body.ipynb* queried the full dataset and took each distinct subreddit and the first comment associated with it. The results of this query are in *subreddit_bodies.csv*
+
+*K-means.ipynb* used the results of the previous queries and joined them together. In this case, I chose K = 10 for clustering the top 1,000 subreddits. 
 
 # Methodology
-Data cleaning and manipulating 
+## Data cleaning and Manipulating 
 
 First two notebooks
 
