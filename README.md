@@ -27,12 +27,12 @@ First two notebooks
 ### Summary Statistics
 The first notebook, *qry_scores.ipynb*, is where I computed some summary statistics on the dataset, in addition to performing the average scoring query. The full dataset had 476,259,744 rows. After querying, I found that:
 
-*Number of Distinct Subreddits = 233,505
-*Highest Average Score = 103.33333333333333
-*Lowest Average Score = -119.0
+* Number of Distinct Subreddits = 233,505
+* Highest Average Score = 103.33333333333333
+* Lowest Average Score = -119.0
 
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/Top%2010%20Scores.png)
 
 ### K-means Clustering
 K-means clustering, final notebook
