@@ -32,7 +32,7 @@ The first notebook, *qry_scores.ipynb*, is where I computed some summary statist
 * Lowest Average Score = -119.0
 
 The chart below shows the average scores of the 10 highest subreddits:
-(https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/Top%2010%20Scores.png)
+![Image of Yaktocat](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/Top%2010%20Scores.png)
 
 ### K-means Clustering
 K-means clustering, final notebook
