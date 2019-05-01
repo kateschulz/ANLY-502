@@ -17,10 +17,24 @@ The code for this project is contained in three .ipynb notebooks:
 *K-means.ipynb* used the results of the previous queries and joined them together. In this case, I chose K = 10 for clustering the top 1,000 subreddits. 
 
 # Methodology
-## Data cleaning and Manipulating 
+
+## Data Cleaning and Manipulating 
 
 First two notebooks
 
+## Data Analysis
+
+### Summary Statistics
+The first notebook, *qry_scores.ipynb*, is where I computed some summary statistics on the dataset, in addition to performing the average scoring query. The full dataset had 476,259,744 rows. After querying, I found that:
+
+*Number of Distinct Subreddits = 233,505
+*Highest Average Score = 103.33333333333333
+*Lowest Average Score = -119.0
+
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+### K-means Clustering
 K-means clustering, final notebook
 
 
