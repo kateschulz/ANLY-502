@@ -48,8 +48,9 @@ The top 10 subreddits pictured earlier with their average scores were clustered 
 
  ![Image of Yaktocat](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/top%2010%20groups.png)
 
-The individual subreddit that belonged to group 5 was "LetterstoJNMIL", which has been made [private](https://www.reddit.com/r/LetterstoJNMIL/comments/b8twn9/dear_mods/), so I cannot determine what topics the subreddit covers 
+The individual subreddit that belonged to group 2 was "LetterstoJNMIL", which has been made [private](https://www.reddit.com/r/LetterstoJNMIL/comments/b8twn9/dear_mods/), so I cannot determine what topics the subreddit covers. It had an average score of 14.32, which also does not indicate why it may be so different from the rest of the subreddits.
 
+The other subreddit that appeared far from the rest was "restofthefuckingowl" in group 5, which had an average score of 19.26. This subreddit appears to be about[art tips](https://www.reddit.com/r/restofthefuckingowl/) and is heavy on images and not text. The lack of text may explain why this subreddit was clustered farther away from most of the others. 
 
 # Future Work
 
