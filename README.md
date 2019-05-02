@@ -44,6 +44,14 @@ On 10 groups, the k-means clusters classified most of the subreddits into two gr
  
   ![Image of Yaktocat](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/3D%20plot.png)
 
+The top 10 subreddits pictured earlier with their average scores were clustered in groups 0 or 3: 
+
+ ![Image of Yaktocat](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/top%2010%20groups.png)
+
+The individual subreddit that belonged to group 5 was "LetterstoJNMIL", which has been made private, so I cannot determine what topics the subreddit covers 
+
+http://github.com - automatic!
+[GitHub](http://github.com)
 
 # Future Work
 
