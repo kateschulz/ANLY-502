@@ -30,7 +30,7 @@ The chart below shows the average scores of the 10 highest subreddits:
 
 
 ### Data Manipulation
-After query the data in the *qry_subreddit_scores.ipynb* and *qry_subreddit_body.ipynb* notebooks, I joined the datasets in the *K-means.ipynb* notebook and removed any rows where the comment was "[removed]" or "[deleted]". I also subsetted for the 1,000 subreddits with the highest average scores to make the text processing of the comments quicker in the k-means clustering. During the k-means clustering, I also removed stop words from the comments to make the available text more meaningful for analysis. 
+After query the data in the *qry_subreddit_scores.ipynb* and *qry_subreddit_body.ipynb* notebooks, I joined the datasets in the *K-means.ipynb* notebook and removed any rows where the comment was "[removed]" or "[deleted]". I also subsetted for the 1,000 subreddits with the highest average scores to make the text processing of the comments faster in the k-means clustering. During the k-means clustering, I also removed stop words from the comments to make the available text more meaningful for analysis. 
 
 ### K-means Clustering
 I performed the k-means clustering in the *K-means.ipynb* notebook. I chose k = 10 arbitrarily, as I could not figure out how to do arithmetic with the sparse vector representations of the comments. In addition, I limited the number of features in the text hashing to three, so I could visualize the results with a 3D plot. 
