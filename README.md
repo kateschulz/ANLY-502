@@ -12,14 +12,14 @@ The code for this project is contained in three .ipynb notebooks:
 
 [qry_subreddit_scores.ipynb](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/qry_subreddit_scores.ipynb) queried the full dataset and computed the average score for each subreddit. The results of this query are in *subreddit_score.csv*.
 
-[qry_subreddit_body.ipynb](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/qry_subreddit_body.ipynb)queried the full dataset and took each distinct subreddit and the first comment associated with it. The results of this query are in *subreddit_bodies.csv*
+[qry_subreddit_body.ipynb](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/qry_subreddit_body.ipynb) queried the full dataset and took each distinct subreddit and the first comment associated with it. The results of this query are in *subreddit_bodies.csv*
 
 [K-means.ipynb](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/K-means.ipynb) used the results of the previous queries and joined them together. In this case, I chose K = 10 for clustering the top 1,000 subreddits. 
 
 # Methodology
 
 ### Summary Statistics
-I computed some summary statistic on the dataset in the *qry_subreddit_scores.ipynb* notebook, in addition to performing the average scoring query. The full dataset had 476,259,744 rows. After querying, I found that the:
+I computed some summary statistic on the dataset in the [qry_subreddit_scores.ipynb](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/qry_subreddit_scores.ipynb) notebook, in addition to performing the average scoring query. The full dataset had 476,259,744 rows. After querying, I found that the:
 
 * Number of Distinct Subreddits = 233,505
 * Highest Average Score = 103.3
@@ -30,10 +30,10 @@ The chart below shows the average scores of the 10 highest subreddits:
 
 
 ### Data Manipulation
-After query the data in the *qry_subreddit_scores.ipynb* and *qry_subreddit_body.ipynb* notebooks, I joined the datasets in the *K-means.ipynb* notebook and removed any rows where the comment was "[removed]" or "[deleted]". I subsetted for the 1,000 subreddits with the highest average scores to make the text processing of the comments faster in the k-means clustering. During the k-means clustering, I also removed stop words from the comments to make the available text more meaningful for analysis. 
+After query the data in the [qry_subreddit_scores.ipynb](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/qry_subreddit_scores.ipynb) and [qry_subreddit_body.ipynb](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/qry_subreddit_body.ipynb) notebooks, I joined the datasets in the [K-means.ipynb](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/K-means.ipynb)notebook and removed any rows where the comment was "[removed]" or "[deleted]". I subsetted for the 1,000 subreddits with the highest average scores to make the text processing of the comments faster in the k-means clustering. During the k-means clustering, I also removed stop words from the comments to make the available text more meaningful for analysis. 
 
 ### K-means Clustering
-I performed the k-means clustering in the *K-means.ipynb* notebook. I chose k = 10 arbitrarily, as I could not figure out how to do arithmetic with the sparse vector representations of the comments. In addition, I limited the number of features in the text hashing to three, so I could visualize the results with a 3D plot. 
+I performed the k-means clustering in the [K-means.ipynb](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/K-means.ipynb) notebook. I chose k = 10 arbitrarily, as I could not figure out how to do arithmetic with the sparse vector representations of the comments. In addition, I limited the number of features in the text hashing to three, so I could visualize the results with a 3D plot. 
 
 # Results
 On 10 groups, the k-means clusters classified most of the subreddits into two groups. The number of subreddits in each cluster are shown in the table below. Of the 1,000 subreddits analyzed, 725 are in groups 0 or 3.
