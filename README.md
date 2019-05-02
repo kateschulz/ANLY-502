@@ -10,11 +10,11 @@ The code for this project is contained in three .ipynb notebooks:
 * [qry_subreddit_body.ipynb](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/qry_subreddit_body.ipynb)
 * [K-means.ipynb](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/K-means.ipynb)
 
-*qry_subreddit_scores.ipynb* queried the full dataset and computed the average score for each subreddit. The results of this query are in *subreddit_score.csv*.
+[qry_subreddit_scores.ipynb](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/qry_subreddit_scores.ipynb) queried the full dataset and computed the average score for each subreddit. The results of this query are in *subreddit_score.csv*.
 
-*qry_subreddit_body.ipynb* queried the full dataset and took each distinct subreddit and the first comment associated with it. The results of this query are in *subreddit_bodies.csv*
+[qry_subreddit_body.ipynb](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/qry_subreddit_body.ipynb)queried the full dataset and took each distinct subreddit and the first comment associated with it. The results of this query are in *subreddit_bodies.csv*
 
-*K-means.ipynb* used the results of the previous queries and joined them together. In this case, I chose K = 10 for clustering the top 1,000 subreddits. 
+[K-means.ipynb](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/K-means.ipynb) used the results of the previous queries and joined them together. In this case, I chose K = 10 for clustering the top 1,000 subreddits. 
 
 # Methodology
 
