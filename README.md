@@ -6,9 +6,9 @@ In this project, I focused on the subreddits, scores, and bodies (which are the 
 
 # Code
 The code for this project is contained in three .ipynb notebooks:
-* *qry_subreddit_scores.ipynb*
-* *qry_subreddit_body.ipynb*
-* *K-means.ipynb*
+* *[qry_subreddit_scores.ipynb]* (https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/qry_subreddit_scores.ipynb)
+* *[qry_subreddit_body.ipynb]* (https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/qry_subreddit_body.ipynb)
+* *[K-means.ipynb]* (https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/K-means.ipynb)
 
 *qry_subreddit_scores.ipynb* queried the full dataset and computed the average score for each subreddit. The results of this query are in *subreddit_score.csv*.
 
