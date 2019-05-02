@@ -48,10 +48,8 @@ The top 10 subreddits pictured earlier with their average scores were clustered 
 
  ![Image of Yaktocat](https://github.com/gu-anly502/spring2019-miniproject-kateschulz/blob/master/top%2010%20groups.png)
 
-The individual subreddit that belonged to group 5 was "LetterstoJNMIL", which has been made private, so I cannot determine what topics the subreddit covers 
+The individual subreddit that belonged to group 5 was "LetterstoJNMIL", which has been made [private](https://www.reddit.com/r/LetterstoJNMIL/comments/b8twn9/dear_mods/), so I cannot determine what topics the subreddit covers 
 
-http://github.com - automatic!
-[GitHub](http://github.com)
 
 # Future Work
 
