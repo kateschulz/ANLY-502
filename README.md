@@ -1,7 +1,7 @@
 Katherine Schulz, ANLY 502 Project
 
 # Introduction
-In this project, I focused on the subreddits, scores, and bodies (which are the comments and subcomments). I first analyzed the ratings of each subreddit by averaging their scores across the entire dataset. Using comments from each subreddit, I then performed a k-means clustering on the top scoring 1,000 subreddits to assess how similar their contents were. Overall, most of the top 1,000 subreddits were in clusters close to each other; however, two distinct subreddits were the only points in clusters far from the rest. 
+In this project, I focused on the subreddits, scores, and bodies (which are the comments and subcomments). I first analyzed the ratings of each subreddit by averaging their scores across the entire dataset. Using comments from each subreddit, I then performed a k-means clustering on the top scoring 1,000 subreddits to assess how similar their contents were. Overall, most of the top 1,000 subreddits were in clusters close to each other; however, two distinct subreddits were the only points in clusters far from the rest, one of which is now a private subreddit page, and the other of which is image heavy, and not text heavy. 
 
 
 # Code
